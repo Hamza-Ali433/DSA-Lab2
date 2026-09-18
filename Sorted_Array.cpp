@@ -86,8 +86,18 @@ bool isSorted(const int* arr, const int size) {
 
 
 int main() {
+    testsorted();
+    unsorted();
+    duplicate_sorted();
+    one_element();
+     descending();
+    negative_values();
+    negative_unsorted();
+    empty();
+    testSortedArray();
+
     same_values();
     cout<<"Ran Successfully!"<<endl;
-    
+
     return 0;
 }
