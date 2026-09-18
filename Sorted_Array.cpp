@@ -86,6 +86,8 @@ bool isSorted(const int* arr, const int size) {
 
 
 int main() {
-   
+    same_values();
+    cout<<"Ran Successfully!"<<endl;
+    
     return 0;
 }
