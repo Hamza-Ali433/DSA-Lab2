@@ -53,6 +53,12 @@ void negative_unsorted(){
     assert(result == false);
 }
 
+void same_values(){
+    int arr []={1,1,1,1,1};
+    bool result= isSorted(arr,5);
+    assert(result == true);
+}
+
 // empty array 
 void empty(){
     int arr []={};
